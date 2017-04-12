@@ -2,8 +2,6 @@
 
 use App\Core\App;
 
-require '../lendylib/lendylib.php';
-
 App::bind('config', require 'config.php');
 
 App::bind('database', new QueryBuilder(
