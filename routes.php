@@ -2,4 +2,4 @@
 
 
 
-$router->get('', 'LeadsController@index');
+$router->get('', 'PagesController@index');

@@ -6,45 +6,26 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-	<title>API Stream</title>
+	<title>Tempered Sword | A PHP Framework</title>
 
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
 		  integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-
+<style>
+	h1
+	{
+	font-size: 100px;
+		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+	}
+</style>
 </head>
 <body>
 <div class="container">
 	<?php include('partials/nav.php'); ?>
 	<div class="row">
-		<div class="col-md-12">
-			<h1>Lead API</h1>
-
-
-<table class="table table-bordered">
-<thead>
-<tr>
-	<td>ID</td>
-	<td>Full Name</td>
-	<td>Email</td>
-	<td>Phone</td>
-	<td>Further Information</td>
-	<td>Security Address</td>
-</tr>
-</thead>
-	<tbody>
-	<?php foreach ($leads as $lead) : ?>
-		<tr>
-	<td><?= $lead->id ?></td>
-	<td><?= $lead->fullname ?></td>
-	<td><?= $lead->email ?></td>
-	<td><?= $lead->phone ?></td>
-	<td><?= $lead->furtherInformation ?></td>
-	<td><?= $lead->securityAddress ?></td>
-	<?php endforeach; ?>
-		</tr>
-	</tbody>
-</table>
+		<div class="col-md-12 text-center">
+			<h1>Tempered Sword</h1>
+			<p>A simple little framework</p>
 		</div>
 	</div>
 </div>
